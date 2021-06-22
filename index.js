@@ -20,7 +20,7 @@ document.getElementById("mybtn").addEventListener("click", function () {
       "NO,Guess greater number than "+inputNum;
   } else if ((randomNum = inputNum)) {
     document.getElementById("demo").innerHTML =
-      "You passed in " + ++count + " attempts 🎉";
+      "You passed in " +count + " attempts 🎉";
       var winmusic = new Audio("win.wav");
             winmusic.play();
   }
