@@ -21,7 +21,7 @@ document.getElementById("mybtn").addEventListener("click", function () {
   } else if ((randomNum = inputNum)) {
     document.getElementById("demo").innerHTML =
       "You passed in " +count + " attempts 🎉";
-      var winmusic = new Audio("/win.wav");
+      var winmusic = new Audio("sound.mp3");
             winmusic.play();
   }
   
